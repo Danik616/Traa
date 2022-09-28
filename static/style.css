@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@500&display=swap');
+
 .sec-footer{
     
     direction: rtl;
@@ -85,3 +87,16 @@
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+.ft-nos{
+    text-decoration: none;
+    color: white;
+}
+.txt-logo{
+    font-size: xx-large;
+}
+.contenido{
+    background-image: url(../static/fondo1.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
