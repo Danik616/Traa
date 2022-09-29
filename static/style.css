@@ -1,102 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@500&display=swap");
 
-.sec-footer{
-    
-    direction: rtl;
-    text-align: right;
-    color: #fff;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+.sec-footer {
+  direction: rtl;
+  text-align: right;
+  color: #fff;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
 }
-.sec-footer .desc-box{
-    background: transparent;
-    border: 0;
+.sec-footer .desc-box {
+  background: transparent;
+  border: 0;
 }
-.sec-footer .desc-box .card-title::after{
-    content: ' ';
-    background: #ffffff;
-    display: block;
-    width: 95%;
-    height: 0.2rem;
-    margin-top:0.3rem;
+.sec-footer .desc-box .card-title::after {
+  content: " ";
+  background: #ffffff;
+  display: block;
+  width: 95%;
+  height: 0.2rem;
+  margin-top: 0.3rem;
 }
-.sec-footer .desc-box .card-text{
-    font-family:iranyekan_light;
-    text-align: justify;
+.sec-footer .desc-box .card-text {
+  font-family: iranyekan_light;
+  text-align: justify;
 }
-.sec-sub-footer{
-    background: #f2f2f4;
-    direction: rtl;
-    text-align: right;
-    color: #000;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-size:0.8rem;
+.sec-sub-footer {
+  background: #f2f2f4;
+  direction: rtl;
+  text-align: right;
+  color: #000;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.8rem;
 }
-.sec-sub-footer a{
-    font-size:0.8rem;
+.sec-sub-footer a {
+  font-size: 0.8rem;
 }
-
-
 
 /*------------------*/
 .snip1472 {
-    position: relative;
-    font-size: 20px;
-    color: #e6e6e6;
-    width: 45px;
-    margin: 4px;
-    height: 45px;
-    line-height: 45px;
-    display: inline-block;
-    text-align: center;
-    -webkit-perspective: 50em;
-    perspective: 50em;
-    text-decoration: none;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  position: relative;
+  font-size: 20px;
+  color: #e6e6e6;
+  width: 45px;
+  margin: 4px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .snip1472:after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border: 2px solid #e6e6e6;
-    content: '';
-    z-index: -1;
-    border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid #e6e6e6;
+  content: "";
+  z-index: -1;
+  border-radius: 50%;
 }
 .snip1472:before {
-    color: #fff;
+  color: #fff;
 }
 .snip1472:before,
 .snip1472:after {
-    -webkit-transition: all 0.45s ease-in-out;
-    transition: all 0.45s ease-in-out;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
 }
 .snip1472:hover,
 .snip1472:active,
 .snip1472.hover {
-    color: #c0392b;
+  color: #c0392b;
 }
 .snip1472:hover:after,
 .snip1472:active:after,
 .snip1472.hover:after {
-    border-color: #c0392b transparent #c0392b transparent;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+  border-color: #c0392b transparent #c0392b transparent;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
-.ft-nos{
-    text-decoration: none;
-    color: white;
+.ft-nos {
+  text-decoration: none;
+  color: white;
 }
-.txt-logo{
-    font-size: xx-large;
+.txt-logo {
+  font-size: xx-large;
 }
-.contenido{
-    background-image: url(../static/fondo1.jpg);
-    background-size: cover;
-    height: 90vh;
+.contenido {
+  background-color: #000;
+  height: 80vh;
+}
+.contenido-2 {
+  background-color: #000;
+  height: auto;
 }
 
+.mision_txt {
+  font-family: "Alfa Slab One", cursive;
+  color: white;
+  font-size: 70px;
+  position: static;
+  text-align: center;
+}
+
+.mision_cont {
+  font-family: "Alfa Slab One", cursive;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+.contenido-int {
+  height: 70vh;
+}
